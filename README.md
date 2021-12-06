@@ -1,5 +1,9 @@
 # Blank Wallet Extension
 
+## BOUNTIES LIVE
+
+https://immunefi.com/bounty/blank/
+
 ## Guideline
 
 See [guideline](docs/guideline.md)
