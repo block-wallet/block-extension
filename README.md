@@ -1,8 +1,4 @@
-# Blank Wallet Extension
-
-## BOUNTIES LIVE
-
-https://immunefi.com/bounty/blank/
+# Block Wallet Extension
 
 ## Guideline
 
@@ -11,7 +7,7 @@ See [guideline](docs/guideline.md)
 ## TL;DR
 
 ```bash
-git clone git@github.com:Blank-Wallet/extension.git
+git clone git@github.com:block-wallet/extension.git
 cd extension
 git submodule update --init --recursive
 make git/branch/checkout BRANCH=master
