@@ -63,7 +63,7 @@ We decided to use the monorepo structure with submodules to achieve the followin
 When getting started for the first time run the following:
 
 ```bash
-git clone https://github.com/block-wallet/extension
+git clone https://github.com/block-wallet/block-extension
 cd extension
 git submodule update --init --recursive
 make git/branch/checkout BRANCH=master
