@@ -54,7 +54,24 @@ cp/release-notes:
 build:
 	@rm -Rf dist/
 	@$(MAKE) ENVIRONMENT=$(ENVIRONMENT) build/background --no-print-directory
-	@$(MAKE) build/provider --no-print-directory
+	@$(MAKE) ENVIRONMENT=$(ENVIRONMENT) build/provider --no-print-directory
 	@$(MAKE) build/ui --no-print-directory
 	@$(MAKE) cp/snarks --no-print-directory
 	@$(MAKE) cp/release-notes --no-print-directory
+
+build/prod:
+	@rm -Rf dist/
+	@$(MAKE) ENVIRONMENT=prod build/background --no-print-directory
+	@$(MAKE) ENVIRONMENT=prod build/provider --no-print-directory
+	@$(MAKE) build/ui --no-print-directory
+	@$(MAKE) cp/snarks --no-print-directory
+	@$(MAKE) cp/release-notes --no-print-directory
+
+build/prod-zip:
+	@rm -Rf dist/
+	@$(MAKE) ENVIRONMENT=prod build/background --no-print-directory
+	@$(MAKE) ENVIRONMENT=prod build/provider --no-print-directory
+	@$(MAKE) build/ui --no-print-directory
+	@$(MAKE) cp/snarks --no-print-directory
+	@$(MAKE) cp/release-notes --no-print-directory
+	@zip -r -D blank-extension dist/

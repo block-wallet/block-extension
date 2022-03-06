@@ -1,12 +1,12 @@
 [submodule ".make"]
 	path = .make
-	url = git@github.com:block-wallet/block-make.git
-[submodule "packages/ui"]
-	path = packages/ui
-	url = git@github.com:block-wallet/extension-ui.git
+	url = git@github.com:block-wallet/block-scripts.git
 [submodule "packages/background"]
 	path = packages/background
-	url = git@github.com:block-wallet/extension-background.git
+	url = git@github.com:block-wallet/block-extension-background.git
+[submodule "packages/ui"]
+	path = packages/ui
+	url = git@github.com:block-wallet/block-extension-ui.git
 [submodule "packages/provider"]
 	path = packages/provider
-	url = git@github.com:block-wallet/extension-provider.git
+	url = git@github.com:block-wallet/block-extension-provider.git
