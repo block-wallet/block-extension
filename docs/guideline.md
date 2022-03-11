@@ -64,7 +64,7 @@ When getting started for the first time run the following:
 
 ```bash
 git clone https://github.com/block-wallet/block-extension
-cd block-extension
+cd extension
 git submodule update --init --recursive
 make git/branch/checkout BRANCH=master
 ```
