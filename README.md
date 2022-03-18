@@ -18,6 +18,13 @@ cd ../provider && cp env.orig .env
 
 > 👉 Complete the variables value inside .env
 
+```bash
+cd ../..
+make build
+```
+
+Then the './dist'-folder appears in the extension directory. Load the './dist'-folder into your browser to load the extension.
+
 ## FAQ
 
 - ### git@github.com: Permission denied (publickey)
