@@ -7,8 +7,8 @@ See [guideline](docs/guideline.md)
 ## TL;DR
 
 ```bash
-git clone git@github.com:block-wallet/extension.git
-cd extension
+git clone git@github.com:block-wallet/block-extension.git
+cd block-extension
 git submodule update --init --recursive
 make git/branch/checkout BRANCH=master
 make install
